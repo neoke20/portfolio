@@ -1,11 +1,11 @@
 .navbar h2 {
   border-right: 2px solid black;
-  padding-right: 8px;
+  padding: 0 8px 0 2px;
   background-color: $red;
   color: white;
   &:hover {
     cursor: default;
     color: rgb(235, 235, 235);
-    background-color: lighten($red, 5%);
+    background-color: lighten($red, 3%);
   }
 }
