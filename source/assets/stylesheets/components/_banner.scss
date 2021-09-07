@@ -7,7 +7,18 @@
   font-weight: bold;
   text-transform: uppercase;
   text-align: left;
+  border-left: 12px solid $red;
+  padding: 0 24px 0 12px;
   @media (max-width: 600px) {
     font-size: 60px;
+  }
+  &:hover {
+    color: white;
+    background-color: $red;
+    text-shadow: 2px 2px 4px rgba($color: black, $alpha: 0.5);
+    -webkit-transition: all 1.2s 0s ease;
+    -moz-transition: all 1.2s 0s ease;
+    -o-transition: all 1.2s 0s ease;
+    transition: all 1.2s 0s ease;
   }
 }
