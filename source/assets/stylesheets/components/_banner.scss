@@ -1,0 +1,13 @@
+.banner {
+  background-size: cover;
+  padding: 200px;
+}
+.banner h1 {
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  @media (max-width: 600px) {
+    font-size: 60px;
+  }
+}
