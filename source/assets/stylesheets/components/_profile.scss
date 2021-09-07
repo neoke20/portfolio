@@ -63,6 +63,14 @@ div #who:after{
 // End of text effect
 .profile-img img {
   border-radius: 50%;
+  box-shadow: -3px 3px 8px rgba($color: black, $alpha: 0.5);
+  &:hover {
+    transform: scaleX(-1);
+    -webkit-transition: all 1.2s 0s ease;
+    -moz-transition: all 1.2s 0s ease;
+    -o-transition: all 1.2s 0s ease;
+    transition: all 1.2s 0s ease;
+  }
 }
 .profile-img {
   @media (max-width: 800px) {
@@ -76,6 +84,7 @@ div #who:after{
   align-self: center;
   text-align: center;
   padding-top: 24px;
+  width: 350px;
 }
 }
 .intro {
