@@ -1,25 +1,26 @@
-<div class="container text-center pt-4">
+<div class="container text-center pt-4" id="projects">
   <h2>MY PROJECTS</h2>
 </div>
 <div>
   <ul class="cards">
     <% data.projects.each do |project| %>
       <li>
-        <a href="" class="card">
+        <a href="<%= project.url %>" target="_blank" class="card">
           <img src="<%= image_path(project.image) %>" class="card__image" alt="" />
-          <div class="card__overlay">
-            <div class="card__header">
-              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
-              <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
-              <div class="card__header-text">
-                <h3 class="card__title"><%= project.name.upcase %></h3>
-                <span class="card__status"><%= project.tags %></span>
-              </div>
+        <div class="card__overlay">
+          <div class="card__header">
+            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+            <%# <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" /> %>
+            <div class="project__thumb-<%= project.color %>"></div>
+            <div class="card__header-text">
+              <h3 class="card__title"><%= project.name.upcase %></h3>
+              <span class="card__status"><%= project.tags %></span>
             </div>
-            <p class="card__description"><%= project.description %></p>
           </div>
-        </a>
-      </li>
-    <% end %>
-  </ul>
+          <p class="card__description"><%= project.description %></p>
+        </div>
+      </a>
+    </li>
+  <% end %>
+</ul>
 </div>
