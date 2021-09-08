@@ -2,13 +2,19 @@
   --surface-color: #fff;
   --curve: 40;
 }
+* {
+  box-sizing: border-box;
+}
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
   margin: 4rem 5vw;
   padding: 0;
   list-style-type: none;
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card {

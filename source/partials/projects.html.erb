@@ -1,5 +1,5 @@
-<% data.projects.each do |project| %>
-  <ul class="cards">
+<ul class="cards">
+  <% data.projects.each do |project| %>
     <li>
       <a href="" class="card">
         <img src="<%= image_path(project.image) %>" class="card__image" alt="" />
@@ -16,5 +16,5 @@
         </div>
       </a>
     </li>
-  </ul>
-<% end %>
+  <% end %>
+</ul>
