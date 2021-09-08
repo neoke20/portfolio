@@ -1,4 +1,6 @@
 - name: Genki JACS
+  color: red
+  url: https://www.genkijacs.com
   image: projects/genkijacs.png
   description: Website I created for a Japanese language school teaching to foreigners
   tags:
@@ -6,6 +8,8 @@
     <i class="devicon-css3-plain colored"></i>
     <i class="devicon-bootstrap-plain colored"></i>
 - name: Global With Us
+  color: orange
+  url: https://www.globalwithus.co.jp
   image: projects/globalwithus.png
   description: The corporate website I created of the group my company belongs to
   tags:
@@ -13,6 +17,8 @@
     <i class="devicon-css3-plain colored"></i>
     <i class="devicon-bootstrap-plain colored"></i>
 - name: renRAKU
+  color: dark-blue
+  url: https://www.renrakuchou.com
   image: projects/renraku.png
   description: A Ruby on Rails project I worked on as the Frontend lead dev
   tags:
@@ -22,6 +28,8 @@
     <i class="devicon-rails-plain colored"></i>
     <i class="devicon-javascript-plain colored"></i>
 - name: Doppelgänger Finder
+  color: white
+  url: https://doppelganger-finder.herokuapp.com/
   image: projects/doppelganger.png
   description: A humurous clone of AirBnB, part of a challenge the bootcamp I studied at had
   tags:
@@ -30,6 +38,8 @@
     <i class="devicon-bootstrap-plain colored"></i>
     <i class="devicon-rails-plain colored"></i>
 - name: Wacha gotta watch
+  color: brown
+  url: http://wachagottawatch.herokuapp.com/
   image: projects/movieslist.png
   description: A rails app I created on my own that allows you to add movies you want to watch later to movies list
   tags:
