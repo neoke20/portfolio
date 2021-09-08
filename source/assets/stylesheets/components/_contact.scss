@@ -1,4 +1,20 @@
 #contact {
   background-color: $gunmetal;
   padding-bottom: 30px;
+  i {
+    font-size: 45px;
+    padding: 10px 25px 10px 25px;
+    &:hover {
+      background-color: white;
+      color: black;
+      border-radius: 8px;
+      transition: all 0.5s ease-in;
+    }
+  }
+}
+.fa-linkedin-in {
+  color: #2867B2;
+}
+.fa-github-alt {
+  color: #bd2c00;
 }
