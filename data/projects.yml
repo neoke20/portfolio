@@ -1,8 +1,39 @@
 - name: Genki JACS
   image: projects/genkijacs.png
+  description: Website I created for a Japanese language school teaching to foreigners
+  tags:
+    <i class="devicon-html5-plain colored"></i>
+    <i class="devicon-css3-plain colored"></i>
+    <i class="devicon-bootstrap-plain colored"></i>
 - name: Global With Us
-  image: projects/genkijacs.png
+  image: projects/globalwithus.png
+  description: The corporate website I created of the group my company belongs to
+  tags:
+    <i class="devicon-html5-plain colored"></i>
+    <i class="devicon-css3-plain colored"></i>
+    <i class="devicon-bootstrap-plain colored"></i>
 - name: renRAKU
-  image: projects/genkijacs.png
-- name: Doppelgänger
-  image: projects/genkijacs.png
+  image: projects/renraku.png
+  description: A Ruby on Rails project I worked on as the Frontend lead dev
+  tags:
+    <i class="devicon-html5-plain colored"></i>
+    <i class="devicon-css3-plain colored"></i>
+    <i class="devicon-bootstrap-plain colored"></i>
+    <i class="devicon-rails-plain colored"></i>
+    <i class="devicon-javascript-plain colored"></i>
+- name: Doppelgänger Finder
+  image: projects/doppelganger.png
+  description: A humurous clone of AirBnB, part of a challenge the bootcamp I studied at had
+  tags:
+    <i class="devicon-html5-plain colored"></i>
+    <i class="devicon-css3-plain colored"></i>
+    <i class="devicon-bootstrap-plain colored"></i>
+    <i class="devicon-rails-plain colored"></i>
+- name: Wacha gotta watch
+  image: projects/movieslist.png
+  description: A rails app I created on my own that allows you to add movies you want to watch later to movies list
+  tags:
+    <i class="devicon-html5-plain colored"></i>
+    <i class="devicon-css3-plain colored"></i>
+    <i class="devicon-bootstrap-plain colored"></i>
+    <i class="devicon-rails-plain colored"></i>
