@@ -64,6 +64,9 @@ div #who:after{
 .profile-img img {
   border-radius: 50%;
   box-shadow: -3px 3px 8px rgba($color: black, $alpha: 0.5);
+  object-fit: cover;
+  object-position: top;
+  width: 300px;
   &:hover {
     transform: scaleX(-1);
     -webkit-transition: all 1.2s 0s ease;
