@@ -22,7 +22,24 @@ div #who:before,
 div #who:after{
   content: attr(title);
   position: absolute;
-  left: 0;
+  left: 480px;
+  @media (min-width: 993px) and (max-width: 1200px){
+    left: 390px;
+  }
+  @media (min-width: 767px) and (max-width: 992px) {
+    left: 271px;
+  }
+  @media (min-width: 575px) and (max-width: 766px) {
+    left: 180px;
+  }
+  @media (max-width: 574px) {
+    left: 0;
+  }
+}
+#who {
+  @media (max-width: 574px) {
+    text-align: left !important;
+  }
 }
 
 div #who:before{
