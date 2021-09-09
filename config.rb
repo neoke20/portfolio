@@ -25,7 +25,7 @@ activate :external_pipeline,
          source: 'dist',
          latency: 1
 
-activate :metaman, host: 'https://domain.com'
+activate :metaman, host: 'http://www.kevindev.me'
 
 page '/*.xml',  layout: false
 page '/*.json', layout: false
