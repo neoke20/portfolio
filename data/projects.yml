@@ -1,5 +1,5 @@
 - name: Any Goals Yesterday
-  color: deeppink
+  color: pink
   url: https://anygoalsyesterday.netlify.app/
   image: projects/anygoals.png
   description: React app I created that gives spoiler-free football results
