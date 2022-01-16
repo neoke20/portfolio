@@ -1,4 +1,15 @@
-- name: Genki JACS
+- name: Any Goals Yesterday
+  color: deeppink
+  url: https://anygoalsyesterday.netlify.app/
+  image: projects/anygoals.png
+  description: React app I created that gives spoiler-free football results
+  tags:
+    <i class="devicon-react-original colored"></i>
+    <i class="devicon-javascript-plain colored"></i>
+    <i class="devicon-html5-plain colored"></i>
+    <i class="devicon-sass-original colored"></i>
+    <i class="devicon-bootstrap-plain colored"></i>
+- name: GenkiJACS
   color: red
   url: https://www.genkijacs.com
   image: projects/genkijacs.jpg
