@@ -18,6 +18,15 @@
     <i class="devicon-html5-plain colored"></i>
     <i class="devicon-css3-plain colored"></i>
     <i class="devicon-bootstrap-plain colored"></i>
+- name: I.C.Nagoya
+  color: icblue
+  url: https://icn.gr.jp/english/home.html
+  image: projects/icnagoya.png
+  description: Website created from scratch for a sister school belonging to the group I work for
+  tags:
+    <i class="devicon-html5-plain colored"></i>
+    <i class="devicon-css3-plain colored"></i>
+    <i class="devicon-bootstrap-plain colored"></i>
 - name: Global With Us
   color: orange
   url: https://www.globalwithus.co.jp
