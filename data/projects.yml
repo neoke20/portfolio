@@ -49,7 +49,7 @@
     <i class="devicon-javascript-plain colored"></i>
 - name: Doppelgänger Finder
   color: white
-  url: https://doppelganger-finder.herokuapp.com/
+  url: https://github.com/neoke20/Doppelganger-Finder
   image: projects/doppelganger.jpg
   description: A humurous clone of AirBnB, part of a challenge the bootcamp I studied at had
   tags:
@@ -59,7 +59,7 @@
     <i class="devicon-rails-plain colored"></i>
 - name: Wacha gotta watch
   color: brown
-  url: http://wachagottawatch.herokuapp.com/
+  url: https://github.com/neoke20/rails-watch-list
   image: projects/movieslist.jpg
   description: A rails app I created on my own that allows you to add movies you want to watch later to movies list
   tags:
