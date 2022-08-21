@@ -1,6 +1,6 @@
 - name: renRAKU
   color: dark-blue
-  url: https://www.renrakuchou.com
+  url: https://github.com/neoke20/renRAKUperso
   image: projects/renraku.jpg
   description: A Ruby on Rails project I worked on as the Frontend lead dev
   tags:
