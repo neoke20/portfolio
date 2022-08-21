@@ -1,0 +1,21 @@
+- name: Any Goals Yesterday
+  color: pink
+  url: https://anygoalsyesterday.netlify.app/
+  image: projects/anygoals.png
+  description: React app I created that gives spoiler-free football results
+  tags:
+    <i class="devicon-react-original colored"></i>
+    <i class="devicon-javascript-plain colored"></i>
+    <i class="devicon-html5-plain colored"></i>
+    <i class="devicon-sass-original colored"></i>
+    <i class="devicon-bootstrap-plain colored"></i>
+- name: Wacha gotta watch
+  color: brown
+  url: https://github.com/neoke20/rails-watch-list
+  image: projects/movieslist.jpg
+  description: A rails app I created on my own that allows you to add movies you want to watch later to movies list
+  tags:
+    <i class="devicon-html5-plain colored"></i>
+    <i class="devicon-css3-plain colored"></i>
+    <i class="devicon-bootstrap-plain colored"></i>
+    <i class="devicon-rails-plain colored"></i>

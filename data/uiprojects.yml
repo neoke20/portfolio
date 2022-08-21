@@ -1,0 +1,27 @@
+- name: GenkiJACS
+  color: red
+  url: https://www.genkijacs.com
+  image: projects/genkijacs.jpg
+  description: Website I created for a Japanese language school teaching to foreigners
+  tags:
+    <i class="devicon-html5-plain colored"></i>
+    <i class="devicon-css3-plain colored"></i>
+    <i class="devicon-bootstrap-plain colored"></i>
+- name: I.C.Nagoya
+  color: icblue
+  url: https://icn.gr.jp/english/home.html
+  image: projects/icnagoya.png
+  description: Website created from scratch for a sister school belonging to the group I work for
+  tags:
+    <i class="devicon-html5-plain colored"></i>
+    <i class="devicon-css3-plain colored"></i>
+    <i class="devicon-bootstrap-plain colored"></i>
+- name: Global With Us
+  color: orange
+  url: https://www.globalwithus.co.jp
+  image: projects/globalwithus.jpg
+  description: The corporate website I created of the group my company belongs to
+  tags:
+    <i class="devicon-html5-plain colored"></i>
+    <i class="devicon-css3-plain colored"></i>
+    <i class="devicon-bootstrap-plain colored"></i>
