@@ -6,3 +6,15 @@
 @import "contact";
 @import "navbar";
 @import "profile";
+@import "bookingcard";
+@import "moviecard";
+@import "pricing";
+@import "product";
+@import "weatherapp";
+@import "coursecard";
+
+@media (max-width: 770px) {
+  #ui-components {
+    display: none;
+  }
+}

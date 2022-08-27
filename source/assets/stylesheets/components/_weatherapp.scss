@@ -1,0 +1,115 @@
+.ui-weather-component {
+  .frame {
+      background: rgb(112,38,50);
+      background: linear-gradient(90deg, rgba(112,38,50,1) 0%, rgba(166,37,58,1) 25%, rgba(184,32,56,1) 50%, rgba(210,29,58,1) 75%, rgba(227,22,55,1) 100%);
+  }
+
+  h1, h2, p {
+      font-family: $dosis;
+      font-weight: 400;
+  }
+
+  .date p {
+      font-size: 24px;
+      line-height: 8px
+  }
+
+  .city {
+      font-family: $amatic;
+      font-size: 26px;
+      font-weight: 700;
+  }
+
+  .frame {
+      background-color: rgba(255, 255, 255, 0.5);
+      max-width: 350px;
+      margin: 20px auto;
+      border-radius: 8px;
+      padding: 16px 0;
+      border-left: 2px solid rgba(255, 255, 255, 0.5);
+      border-top: 2px solid rgba(255, 255, 255, 0.5);
+      position: relative;
+      box-shadow: -2px 2px 20px rgba(40, 40, 40, 0.4);
+  }
+
+  .today {
+      max-width: 90%;
+      height: 150px;
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 8px;
+      margin: 24px auto 20px auto;
+      padding: 4px 8px;
+      border-right: 1px solid #FFFFFA;
+      border-bottom: 1px solid #FFFFFA;
+      box-shadow: 1px 1px 2px rgba(250, 250, 250, 0.5);
+  }
+
+  .today i {
+      font-size: 68px;
+      padding: 2px;
+  }
+
+  .today h1 {
+      text-shadow: -10px 14px 20px rgba(45, 45, 45, 0.3);
+  }
+
+  .today img {
+      max-width: 100%;
+  }
+
+  .date {
+      line-height: 2px;
+  }
+
+  .city {
+      align-self: flex-end;
+  }
+
+  .week {
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 8px 8px 0 0;
+      padding: 8px 0;
+      margin: 12px 0;
+  }
+
+  .first {
+      background-color: rgba(255, 255, 255, 0.75);
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+  }
+
+  .day {
+      padding: 10px 8px;
+      margin: 6px 12px;
+      border-radius: 8px;
+  }
+
+  .day img {
+      height: 50px;
+  }
+
+  .day p {
+      font-size: 14px;
+  }
+
+  .day p, .day h2 {
+      margin: auto 0;
+  }
+
+  .day h2 {
+      color: rgba(255, 86, 102, 0.5);
+  }
+
+  .bottom-navbar {
+      background-color: #FFFFFA;
+      padding: 12px;
+      border-radius: 8px;
+      position: absolute;
+      bottom: 0;
+      left: -2px;
+      width: 350px;
+  }
+
+  .bottom-navbar i {
+      font-size: 20px;
+  }
+}

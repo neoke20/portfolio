@@ -1,0 +1,285 @@
+<h2 id="projects" class="mt-3 container text-center">UI Projects</h2>
+<div id="ui-components">
+  <div class="container my-4 ui-booking-card">
+    <h3 class="text-center mb-3">Booking card component</h3>
+    <div class="booking-card d-flex justify-content-center">
+      <div class="booking-details">
+        <img id="logo" src="./assets/images/projects/RitzCarlton.svg.png" alt="Ritz" height="65" class="mb-3">
+        <div class="d-flex justify-content-around crumbs">
+          <p>Booking</p>
+          <p>></p>
+          <p class="grey">Details</p>
+          <p>></p>
+          <p class="grey">Payment confirmation</p>
+        </div>
+        <div class="text-center property-image">
+          <img src="./assets/images/projects/ritzroom.webp" alt="hotel room" width="350" class="my-2">
+          <div class="fading"></div>
+        </div>
+        <h2>Reserve a room</h2>
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut magnam ipsum asperiores odio, expedita provident explicabo illum voluptatum minima rem reiciendis, doloribus et, in possimus quos repellat dignissimos atque!</p>
+        <div class="d-flex justify-content-between mb-3">
+          <div class="d-flex flex-column">
+            <label for="people">People</label>
+            <input type="number" value="1" min="1" max="4" id="people">
+          </div>
+          <div class="d-flex flex-column">
+            <label for="room">Room type</label>
+            <input list="rooms" name="room" id="room">
+            <datalist id="rooms">
+              <option value="Standard">
+                <option value="Double">
+                  <option value="Luxe">
+                    <option value="Suite">
+                    </datalist>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-column">
+                    <label for="check-in">Check-in</label>
+                    <input type="date" id="check-in">
+                  </div>
+                  <div class="d-flex flex-column">
+                    <label for="check-out">Check-in</label>
+                    <input type="date" id="check-out">
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button class="my-5">Reserve</button>
+                </div>
+              </div>
+              <div class="prop-photo" style="background-image: url(./assets/images/projects/ritzpatio.webp);">
+                <div class="location d-flex justify-content-center">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <div class="d-flex flex-column justify-content-center">
+                    <p>RAS AL KHAIMAH</p>
+                    <em>AL WADI DESERT</em>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <%# MOVIE CARD COMPONENT %>
+          <h3 class="text-center">Movie card component</h3>
+          <div class="container ui-movie-card mb-4 d-flex justify-content-center">
+            <div class="movie-card d-flex flex-column">
+              <div class="poster">
+                <img src="./assets/images/projects/paddington2.webp" alt="Paddington 2">
+                <div class="header d-flex justify-content-between text-white">
+                  <i class="fa-solid fa-angle-left"></i>
+                  <h2>Paddington 2</h2>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <div class="play-button text-white">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+                <div class="popularity d-flex flex-column text-white">
+                  <p>Popularity</p>
+                  <p>2,000 <span>(+153)</span></p>
+                </div>
+              </div>
+              <div class="content text-white p-4">
+                <h3 class="website">IMDB <span>7.8</span></h3>
+                <div class="description">
+                  <p>Description</p>
+                  <div class="d-flex justify-content-between">
+                    <p>Year: <span>2017</span></p>
+                    <p>Country: <span>USA</span></p>
+                  </div>
+                  <p>Rating: <span>PG</span></p>
+                  <p>Genres: <span>Adventure, Comedy, Family</span></p>
+                  <p>Duration: <span>103 minutes</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <%# Pricing Card %>
+          <div class="container ui-pricing-card">
+            <h3 class="text-center">Pricing component</h3>
+            <div class="d-flex text-center m-5">
+              <div class="mx-3 price-card">
+                <div class="basic package">
+                  <h2>Basic</h2>
+                </div>
+                <div class="details basic-shadow d-flex flex-column justify-content-around">
+                  <div class="text-grey discount">
+                    <p>Discount</p>
+                    <p class="text-white font-46">10%</p>
+                  </div>
+                  <div class="text-grey price">
+                    <p>Price</p>
+                    <p class="text-white font-46">¥1200</p>
+                  </div>
+                  <div class="text-grey total">
+                    <p>Total</p>
+                    <p class="text-white font-46 basic-gradient text-gradient">¥1080</p>
+                  </div>
+                </div>
+              </div>
+              <div class="mx-3 price-card">
+                <div class="premium package">
+                  <h2>Premium</h2>
+                </div>
+                <div class="details premium-shadow d-flex flex-column justify-content-around">
+                  <div class="text-grey discount">
+                    <p>Discount</p>
+                    <p class="text-white font-46">10%</p>
+                  </div>
+                  <div class="text-grey price">
+                    <p>Price</p>
+                    <p class="text-white font-46">¥2000</p>
+                  </div>
+                  <div class="text-grey total">
+                    <p>Total</p>
+                    <p class="text-white font-46 premium-gradient text-gradient">¥1800</p>
+                  </div>
+                </div>
+              </div>
+              <div class="mx-3 price-card">
+                <div class="diamond package">
+                  <h2>Diamond</h2>
+                </div>
+                <div class="details diamond-shadow d-flex flex-column justify-content-around">
+                  <div class="text-grey discount">
+                    <p>Discount</p>
+                    <p class="text-white font-46">10%</p>
+                  </div>
+                  <div class="text-grey price">
+                    <p>Price</p>
+                    <p class="text-white font-46">¥3000</p>
+                  </div>
+                  <div class="text-grey total">
+                    <p>Total</p>
+                    <p class="text-white font-46 diamond-gradient text-gradient">¥2700</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <%# Product component %>
+          <h3 class="text-center">Product component</h3>
+          <div class="container ui-product-component d-flex justify-content-center">
+            <div class="product-container d-flex">
+              <div class="left">
+                <div class="left-background">
+                  <img class="product-img" src="./assets/images/projects/ps5controller.png" alt="PS5 controller">
+                  <div class="pills d-flex flex-column">
+                    <div class="pill selected"></div>
+                    <div class="pill"></div>
+                    <div class="pill"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="right">
+                <div class="right-background d-flex flex-column justify-content-between">
+                  <h2>PS5 Controller</h2>
+                  <p class="price">$70.00</p>
+                  <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nihil doloremque obcaecati neque. Temporibus in numquam modi mollitia aliquam delectus cumque aspernatur minima porro dolorum, impedit rem corrupti, quo harum.</p>
+                  <div class="d-flex justify-content-around">
+                    <div class="d-flex">
+                      <div class="mx-2 square red"></div>
+                      <div class="mx-2 square blue"></div>
+                      <div class="mx-2 square white"></div>
+                    </div>
+                    <div>
+                      <input class="flex-grow-1 number" type="number" value="1" min="1" max="5">
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-around">
+                  </div>
+                  <button class="add-to-cart">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <%# Weather app %>
+          <h3 class="text-center">Weather app component</h3>
+          <div class="container ui-weather-component">
+            <div class="frame">
+              <div class="today d-flex justify-content-between">
+                <div class="d-flex flex-column justify-content-between">
+                  <h1>12:00</h1>
+                  <div class="date">
+                    <p>Tuesday</p>
+                    <p>12th July</p>
+                  </div>
+                </div>
+                <div class="d-flex flex-column justify-content-between">
+                  <img src="./assets/images/projects/sunny.png" alt="">
+                  <p class="city">Fukuoka</p>
+                </div>
+              </div>
+              <div class="week">
+                <div class="day first d-flex justify-content-between">
+                  <img src="./assets/images/projects/cloudy.png" alt="">
+                  <div class="d-flex flex-column">
+                    <p><strong>Tuesday</strong></p>
+                    <p><strong>UV Index</strong>: 6 | <strong>Humidity</strong>: 80%</p>
+                  </div>
+                  <h2>31°C</h2>
+                </div>
+                <div class="day d-flex justify-content-between">
+                  <img src="./assets/images/projects/cloudwind.png" alt="">
+                  <div class="d-flex flex-column">
+                    <p><strong>Wednesday</strong></p>
+                    <p><strong>UV Index</strong>: 3 | <strong>Humidity</strong>: 75%</p>
+                  </div>
+                  <h2>28°C</h2>
+                </div>
+                <div class="day d-flex justify-content-between">
+                  <img src="./assets/images/projects/sunny.png" alt="">
+                  <div class="d-flex flex-column">
+                    <p><strong>Thursday</strong></p>
+                    <p><strong>UV Index</strong>: 10 | <strong>Humidity</strong>: 80%</p>
+                  </div>
+                  <h2>32°C</h2>
+                </div>
+                <div class="day d-flex justify-content-between">
+                  <img src="./assets/images/projects/rainy.png" alt="">
+                  <div class="d-flex flex-column">
+                    <p><strong>Friday</strong></p>
+                    <p><strong>UV Index</strong>: 2 | <strong>Humidity</strong>: 70%</p>
+                  </div>
+                  <h2>29°C</h2>
+                </div>
+                <div class="day d-flex justify-content-between">
+                  <img src="./assets/images/projects/sunny.png" alt="">
+                  <div class="d-flex flex-column">
+                    <p><strong>Saturday</strong></p>
+                    <p><strong>UV Index</strong>: 9 | <strong>Humidity</strong>: 80%</p>
+                  </div>
+                  <h2>33°C</h2>
+                </div>
+              </div>
+              <div class="bottom-navbar d-flex justify-content-around">
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-calendar-day"></i>
+                <i class="fa-solid fa-sliders"></i>
+              </div>
+            </div>
+          </div>
+          <%# Course card component %>
+          <h3 class="text-center">Course card component</h3>
+          <div class="container ui-course-card d-flex justify-content-center">
+            <div class="course-card d-flex">
+              <div class="course-intro">
+                <p class="uppercase">Course</p>
+                <h2>CSS course</h2>
+                <a href="#" class="thin offset">view chapters <i class="fa-solid fa-angles-right"></i></a>
+              </div>
+              <div class="course-info d-flex flex-column justify-content-between">
+                <div class="d-flex justify-content-between resp-column">
+                  <p class="uppercase">Chapter 4</p>
+                  <div class="progress-bar-container">
+                    <div class="progress-bar"></div>
+                    <span class="progress-bar-text">2/4 lessons</span>
+                  </div>
+                </div>
+                <div class="d-flex flex-column justify-content-between">
+                  <h2>Flexboxes</h2>
+                  <button class="card-button uppercase">Continue</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>

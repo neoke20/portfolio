@@ -1,0 +1,103 @@
+.ui-course-card {
+  p {
+      font-family: $body-font;
+  }
+
+  h2 {
+      font-family: $quicksand;
+  }
+
+  .course-card {
+      margin: 50px;
+  }
+
+  /* Left part of the card */
+  .course-intro {
+      background-color: #114B5F;
+      padding: 16px 32px;
+      color: #E4FDE1;
+      border-radius: 8px 0 0 8px;
+      box-shadow: 4px 4px 12px rgba(45, 45, 45, 0.5);
+  }
+
+  .course-intro a {
+      text-decoration: none;
+      color: #E4FDE1;
+      font-size: 14px;
+  }
+
+  .course-intro a:hover {
+      margin-left: 5px;
+      transition: 1s;
+  }
+
+  .uppercase {
+      text-transform: uppercase;
+  }
+
+  .thin {
+      font-weight: lighter;
+  }
+  /* right part of the card */
+  .course-info {
+      padding: 16px 32px;
+      width: 500px;
+      background-image: linear-gradient(to right, #212121 60%, #6B2737);
+      color: #E4FDE1;
+      border-radius: 0 8px 8px 0;
+      box-shadow: 4px 4px 12px rgba(45, 45, 45, 0.5);
+  }
+
+  .card-button {
+      background-color: #F45B69;
+      color: #6B2737;
+      border-radius: 4px;
+      padding: 8px 16px;
+      font-size: 0.8rem;
+      font-weight: bold;
+      align-self: flex-end;
+      box-shadow: 2px 2px 8px rgba(240, 240, 240, 0.4);
+      border: none;
+  }
+
+  .card-button:hover {
+      filter: brightness(1.2);
+      transition: 2s;
+  }
+  .progress-bar-container {
+      width: 130px;
+  }
+  .progress-bar {
+    position: relative;
+    background-color: #E4FDE1;
+    border-radius: 4px;
+    height: 4px;
+    width: 100%;
+  }
+  .progress-bar::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    background-color: #F45B69;
+    content: '';
+    height: 4px;
+    width: 50%;
+  }
+  .progress-bar-text {
+      font-size: small;
+      align-self: flex-end;
+  }
+
+  @media (max-width: 525px) {
+      .resp-column {
+          flex-direction: column;
+      }
+      .card-button {
+          align-self: flex-start;
+      }
+      .course-intro a {
+          font-size: 2.2vw;
+      }
+  }
+}
