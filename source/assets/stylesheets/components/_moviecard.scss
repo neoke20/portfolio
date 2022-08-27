@@ -1,14 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
-
-:root {
-    --roboto: 'Roboto', sans-serif;
-}
-
 .movie-card {
     margin: 50px;
 }
 .ui-movie-card h2, h3, p {
-    font-family: var(--roboto);
+    font-family: $roboto;
 }
 .ui-movie-card h3 {
     color: #E2B616;
