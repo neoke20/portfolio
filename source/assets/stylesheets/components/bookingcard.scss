@@ -1,0 +1,83 @@
+:root {
+    --parisienne: 'Parisienne', cursive;
+    --worksans: 'Work Sans', sans-serif;
+}
+.ui-booking-card h2 {
+    font-family: $parisienne;
+    font-size: 34px;
+}
+p, label, button {
+    font-family: $worksans;
+}
+.crumbs p {
+    font-weight: 300;
+}
+p {
+    font-weight: 400;
+}
+.booking-details {
+    width: 450px;
+    padding: 34px;
+    height: 700px;
+    background-color: #F3EFE0;
+    box-shadow: 12px 0 12px rgba(50, 50, 50, 0.3);
+    z-index: 2;
+}
+.prop-photo {
+    position: relative;
+    width: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 4px 0px 6px rgba(50, 50, 50, 0.3);
+}
+.location {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(50, 50, 50, 0.3);
+}
+.location i {
+    font-size: 40px;
+    margin-right: 4px;
+}
+.location > div {
+    line-height: 0px;
+}
+.location > div em {
+    font-size: 12px;
+}
+.description {
+    text-align: justify;
+}
+.property-image {
+    position: relative;
+}
+.fading {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    background: linear-gradient(80deg, rgba(243,239,224,1) 0%, rgba(243,239,224,1) 4%, rgba(243,239,224,0) 50%, rgba(243,239,224,1) 96%, rgba(243,239,224,1) 100%);
+    width: 382px;
+    height: 94px;
+}
+input {
+    background-color: #efdfa2;
+    border: none;
+    text-align: center;
+}
+button {
+    background-color: black;
+    color: white;
+    padding: 4px 20px 4px 20px;
+    box-shadow: 2px 2px 6px rgba(50, 50, 50, 0.3);
+    border: none;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: white;
+    color: black;
+    border: none;
+    transition: all 0.3s;
+}
