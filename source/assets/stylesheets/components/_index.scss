@@ -12,3 +12,9 @@
 @import "product";
 @import "weatherapp";
 @import "coursecard";
+
+@media (max-width: 770px) {
+  #ui-components {
+    display: none;
+  }
+}
